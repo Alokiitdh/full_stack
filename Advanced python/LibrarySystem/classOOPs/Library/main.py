@@ -59,10 +59,9 @@ def Book_record():
 def Member_record():
     return library.list_members()
 
-@app.post("/Borrow")
-def Borrow()
+# @app.post("/Borrow")
+# def Borrow()
     
 
-@app.post("/Return")
-
-
+# @app.post("/Return")
+# pass

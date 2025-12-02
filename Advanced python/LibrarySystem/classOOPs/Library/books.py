@@ -7,7 +7,6 @@ class Books:
         self.is_available = True # Always consider the default as availabe wheen a book is added
 
     def __str__(self): ## gives the human readable representation of the object
-        
         if self.is_available:
             status = "Available"
         else:

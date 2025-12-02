@@ -1,4 +1,5 @@
 class Student:
+    SCHOOL = "Kendriya Vidyalaya AFS Naal"
     def __init__(self,name, rollno, m1,m2,m3,m4,m5):
         self.name : str = name
         self.rollno: int = rollno
@@ -15,7 +16,7 @@ class Student:
         return avg
     
     def __str__(self):
-        return f"name = {self.name}, rollno = {self.rollno} and average is {self.average} "
+        return f" school = {self.SCHOOL},name = {self.name}, rollno = {self.rollno} and average is {self.average} "
 stud1 = Student("Alice", 10001, 85, 90, 78, 92, 33)
 stud2 = Student("Jack", 20001, 75, 80, 98, 42, 55)
 
