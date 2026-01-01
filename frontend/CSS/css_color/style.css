@@ -1,0 +1,45 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 48px;
+}
+
+/* Apply Nabla font */
+.nabla {
+    font-family: "Nabla", system-ui;
+}
+
+p {
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+}
+
+div {
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid black;
+    padding: 50px;
+    margin: 20px;
+}
+
+span {
+    color: red;
+    font-weight: bold;
+}
+
+h2 {
+    color: green;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: left;
+    font-size: 14px;
+    color: grey;
+    margin-top: 20px;
+    font-style: italic;
+}
