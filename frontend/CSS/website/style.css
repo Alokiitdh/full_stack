@@ -3,7 +3,7 @@ img {
     margin: 0 auto;
     height: 200px;
     width: 300px;
-    border: 1px solid white;
+    border: 2px solid white;
     border-radius: 10px;
     margin-top: 20px  ;
 }
